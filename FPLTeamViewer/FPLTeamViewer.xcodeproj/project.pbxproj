@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B5EC35BDCFCFF481EE1E59 /* TeamColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB03255F9646C95E4079C2F /* TeamColorPalette.swift */; };
+		A9E3B12C7D4F6A8B0C1D2E3F /* FPLAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3B12C7D4F6A8B0C1D2E3F /* FPLAPIClientTests.swift */; };
+		B9E3B12C7D4F6A8B0C1D2E3F /* DefaultLeagueRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3B12C7D4F6A8B0C1D2E3F /* DefaultLeagueRepositoryTests.swift */; };
+		E9E3B12C7D4F6A8B0C1D2E3F /* TableScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E3B12C7D4F6A8B0C1D2E3F /* TableScreenTests.swift */; };
+		1D01510DEB674FAA58B842DD /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213652946730043A39E61AAE /* Fixtures.swift */; };
+		2217D2B5072BFA42DABEFF2C /* DecodingAndMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6356F07E8AD17A560899302F /* DecodingAndMappingTests.swift */; };
+		26681DD99DBFE75FD8D99FA9 /* TeamsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7E483AA038B598CB8E70A /* TeamsViewModelTests.swift */; };
+		27F78A7A0B3612B07DB2BE70 /* SnapshotCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C8E8ADBBAFDF7999EB40C /* SnapshotCache.swift */; };
+		2D5A2715EDD73878663CC8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E39B07BC816EA480704448C /* Foundation.framework */; };
+		59B0A1E149D7B90B0C3EB23A /* TeamColorPaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A256D573BA6FE8B8772CE82 /* TeamColorPaletteTests.swift */; };
+		6AB34E5F5DB3C49A52BCB19C /* LeagueSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CFFEAB7A0D4146EB70C4D /* LeagueSnapshot.swift */; };
+		7C7867A65AE1B54C3B5E732E /* SquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB23F515F4C9A3AD95765C5D /* SquadViewController.swift */; };
+		8380B84B92E1FFF7A2A11993 /* FileSnapshotCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B6EBC50DFAF5CF7CC46C2 /* FileSnapshotCacheTests.swift */; };
+		877B5966B90E76F917FAD0A4 /* LeagueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF13C77B334032A44981EDF /* LeagueRepository.swift */; };
+		88629BFE0012DAE520DA4C8B /* DiffableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81269232E42781E1D4CF1CD8 /* DiffableTableView.swift */; };
+		9386466B824182526472005E /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76282E403C54D0F698BC4C62 /* TeamsViewModel.swift */; };
+		A18636DF8B5FAF812A29FA7A /* SquadViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE74F3E7AF17102C9E2D06A /* SquadViewModelTests.swift */; };
+		B1ADED9EA05DD310C15DC386 /* SquadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EBE08D1F119AC973604207 /* SquadViewModel.swift */; };
+		BD4443DC7D1650196051C63F /* LeagueMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC017AE2A8D34498D77CF27 /* LeagueMapper.swift */; };
+		BEF87FD5D1FD0C881E032B15 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F751339EBD6196E200B2C5 /* AppRouter.swift */; };
+		C229A19DD05E2EB5CB952604 /* BootstrapDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B387CB9F5D68154FC7C1C66D /* BootstrapDTO.swift */; };
+		C7E45A1730637BBF2F4D24BC /* FPLAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773040C9709A00561D93B7C9 /* FPLAPIClient.swift */; };
+		D1424F1EC7FD8BE30240027F /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FE5370BC12437F16361CD7 /* TeamsViewController.swift */; };
+		D2E77D95AE301E8E3AFC0F4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E39B07BC816EA480704448C /* Foundation.framework */; };
+		D47510290D346D245FAC5DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2625D2B8484082DB06CDE /* AppDelegate.swift */; };
+		DD2C393C60AFFCE0C78BD488 /* DefaultLeagueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F79C2E43A7A4E6F4A1F6EC /* DefaultLeagueRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80E8004B63C04F16EF96C5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C6DB1BE3987E94BC10B4D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE91AC0828CC18EF1570B2C;
+			remoteInfo = FPLTeamViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F79C2E43A7A4E6F4A1F6EC /* DefaultLeagueRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultLeagueRepository.swift; sourceTree = "<group>"; };
+		C9E3B12C7D4F6A8B0C1D2E3F /* FPLAPIClientTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPLAPIClientTests.swift; sourceTree = "<group>"; };
+		D9E3B12C7D4F6A8B0C1D2E3F /* DefaultLeagueRepositoryTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultLeagueRepositoryTests.swift; sourceTree = "<group>"; };
+		F9E3B12C7D4F6A8B0C1D2E3F /* TableScreenTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableScreenTests.swift; sourceTree = "<group>"; };
+		1CC017AE2A8D34498D77CF27 /* LeagueMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeagueMapper.swift; sourceTree = "<group>"; };
+		213652946730043A39E61AAE /* Fixtures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
+		380CFFEAB7A0D4146EB70C4D /* LeagueSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeagueSnapshot.swift; sourceTree = "<group>"; };
+		3A256D573BA6FE8B8772CE82 /* TeamColorPaletteTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TeamColorPaletteTests.swift; sourceTree = "<group>"; };
+		3E39B07BC816EA480704448C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		52F751339EBD6196E200B2C5 /* AppRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		588C8E8ADBBAFDF7999EB40C /* SnapshotCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapshotCache.swift; sourceTree = "<group>"; };
+		6356F07E8AD17A560899302F /* DecodingAndMappingTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DecodingAndMappingTests.swift; sourceTree = "<group>"; };
+		64191CAAD9B5498951FB4044 /* FPLTeamViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPLTeamViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		656737CE6217ECE97F74E1B1 /* FPLTeamViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPLTeamViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EBE08D1F119AC973604207 /* SquadViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SquadViewModel.swift; sourceTree = "<group>"; };
+		67FE5370BC12437F16361CD7 /* TeamsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		6BE74F3E7AF17102C9E2D06A /* SquadViewModelTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SquadViewModelTests.swift; sourceTree = "<group>"; };
+		76282E403C54D0F698BC4C62 /* TeamsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		773040C9709A00561D93B7C9 /* FPLAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FPLAPIClient.swift; sourceTree = "<group>"; };
+		81269232E42781E1D4CF1CD8 /* DiffableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DiffableTableView.swift; sourceTree = "<group>"; };
+		8DB7E483AA038B598CB8E70A /* TeamsViewModelTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TeamsViewModelTests.swift; sourceTree = "<group>"; };
+		9BB03255F9646C95E4079C2F /* TeamColorPalette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TeamColorPalette.swift; sourceTree = "<group>"; };
+		9FF13C77B334032A44981EDF /* LeagueRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeagueRepository.swift; sourceTree = "<group>"; };
+		AA3B6EBC50DFAF5CF7CC46C2 /* FileSnapshotCacheTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileSnapshotCacheTests.swift; sourceTree = "<group>"; };
+		B387CB9F5D68154FC7C1C66D /* BootstrapDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BootstrapDTO.swift; sourceTree = "<group>"; };
+		BB23F515F4C9A3AD95765C5D /* SquadViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SquadViewController.swift; sourceTree = "<group>"; };
+		FCC2625D2B8484082DB06CDE /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91229A05949A9D7D3C7BDF63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E77D95AE301E8E3AFC0F4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76CA3CA71C191730E136406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5A2715EDD73878663CC8A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045A98A1D8E4DEC9894AA1F5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9FF13C77B334032A44981EDF /* LeagueRepository.swift */,
+			);
+			name = Repositories;
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		063D8AC6BA20EDF4EA95464B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				92D304D843E85C5990725824 /* Components */,
+				247C35E7CA1459F7910BE1CB /* Styling */,
+			);
+			name = UI;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0F3E4A8F9B9055D3AEB13811 /* FPLTeamViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3B12C7D4F6A8B0C1D2E3F /* DefaultLeagueRepositoryTests.swift */,
+				6356F07E8AD17A560899302F /* DecodingAndMappingTests.swift */,
+				C9E3B12C7D4F6A8B0C1D2E3F /* FPLAPIClientTests.swift */,
+				AA3B6EBC50DFAF5CF7CC46C2 /* FileSnapshotCacheTests.swift */,
+				213652946730043A39E61AAE /* Fixtures.swift */,
+				6BE74F3E7AF17102C9E2D06A /* SquadViewModelTests.swift */,
+				3A256D573BA6FE8B8772CE82 /* TeamColorPaletteTests.swift */,
+				F9E3B12C7D4F6A8B0C1D2E3F /* TableScreenTests.swift */,
+				8DB7E483AA038B598CB8E70A /* TeamsViewModelTests.swift */,
+			);
+			name = FPLTeamViewerTests;
+			path = FPLTeamViewerTests;
+			sourceTree = "<group>";
+		};
+		18BE419ABD6413283AE3360B /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				588C8E8ADBBAFDF7999EB40C /* SnapshotCache.swift */,
+			);
+			name = Persistence;
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		247C35E7CA1459F7910BE1CB /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				9BB03255F9646C95E4079C2F /* TeamColorPalette.swift */,
+			);
+			name = Styling;
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		32C118598F47E79D4D094225 /* Squad */ = {
+			isa = PBXGroup;
+			children = (
+				BB23F515F4C9A3AD95765C5D /* SquadViewController.swift */,
+				67EBE08D1F119AC973604207 /* SquadViewModel.swift */,
+			);
+			name = Squad;
+			path = Squad;
+			sourceTree = "<group>";
+		};
+		360F999E39106A09BB76C4B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64191CAAD9B5498951FB4044 /* FPLTeamViewer.app */,
+				656737CE6217ECE97F74E1B1 /* FPLTeamViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45786B2E7C73F78D1F66ACD7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6FDAB8411632863D96491B36 /* Networking */,
+				18BE419ABD6413283AE3360B /* Persistence */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4674E57C983F91A5C178513F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EA76E91D056905AC5094EF01 /* DTOs */,
+				4C2BA671E0D3DA54788D8E57 /* Mappers */,
+				612770BFF4AFEFB82851491F /* Repositories */,
+			);
+			name = Data;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4C2BA671E0D3DA54788D8E57 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				1CC017AE2A8D34498D77CF27 /* LeagueMapper.swift */,
+			);
+			name = Mappers;
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		58E10256DF85F56B60C0B3B7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				32C118598F47E79D4D094225 /* Squad */,
+				B110B28F4CF3E009F58EC25A /* Teams */,
+			);
+			name = Features;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5AE4F33B59B0C7D4EEB4ECE2 /* FPLTeamViewer */ = {
+			isa = PBXGroup;
+			children = (
+				98CF113C58C9A1C65179F953 /* App */,
+				45786B2E7C73F78D1F66ACD7 /* Core */,
+				4674E57C983F91A5C178513F /* Data */,
+				795965A3B8243ED3C198D01F /* Domain */,
+				58E10256DF85F56B60C0B3B7 /* Features */,
+				063D8AC6BA20EDF4EA95464B /* UI */,
+			);
+			name = FPLTeamViewer;
+			path = FPLTeamViewer;
+			sourceTree = "<group>";
+		};
+		612770BFF4AFEFB82851491F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				06F79C2E43A7A4E6F4A1F6EC /* DefaultLeagueRepository.swift */,
+			);
+			name = Repositories;
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6FDAB8411632863D96491B36 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				773040C9709A00561D93B7C9 /* FPLAPIClient.swift */,
+			);
+			name = Networking;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		795965A3B8243ED3C198D01F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				86B02491A068F8DA82B2DB29 /* Models */,
+				045A98A1D8E4DEC9894AA1F5 /* Repositories */,
+			);
+			name = Domain;
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		86B02491A068F8DA82B2DB29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				380CFFEAB7A0D4146EB70C4D /* LeagueSnapshot.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92D304D843E85C5990725824 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				81269232E42781E1D4CF1CD8 /* DiffableTableView.swift */,
+			);
+			name = Components;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		98CF113C58C9A1C65179F953 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				52F751339EBD6196E200B2C5 /* AppRouter.swift */,
+				FCC2625D2B8484082DB06CDE /* AppDelegate.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		B110B28F4CF3E009F58EC25A /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				67FE5370BC12437F16361CD7 /* TeamsViewController.swift */,
+				76282E403C54D0F698BC4C62 /* TeamsViewModel.swift */,
+			);
+			name = Teams;
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		D1C8DFA75D34A3152F4EE1B6 = {
+			isa = PBXGroup;
+			children = (
+				360F999E39106A09BB76C4B7 /* Products */,
+				E665A31FA039CFC6E76D19D7 /* Frameworks */,
+				5AE4F33B59B0C7D4EEB4ECE2 /* FPLTeamViewer */,
+				0F3E4A8F9B9055D3AEB13811 /* FPLTeamViewerTests */,
+			);
+			sourceTree = "<group>";
+		};
+		E665A31FA039CFC6E76D19D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDB9834724740165441EB2DA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA76E91D056905AC5094EF01 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				B387CB9F5D68154FC7C1C66D /* BootstrapDTO.swift */,
+			);
+			name = DTOs;
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		FDB9834724740165441EB2DA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E39B07BC816EA480704448C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5BC9165DEA0399F77A00657 /* FPLTeamViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16586F7D2CF70E6E8B90128B /* Build configuration list for PBXNativeTarget "FPLTeamViewerTests" */;
+			buildPhases = (
+				E2B593B74E90FE6902EE2E3C /* Sources */,
+				91229A05949A9D7D3C7BDF63 /* Frameworks */,
+				27F5027C18785FA7F9149002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9235A851608E4E0A9FAFF6FF /* PBXTargetDependency */,
+			);
+			name = FPLTeamViewerTests;
+			productName = FPLTeamViewerTests;
+			productReference = 656737CE6217ECE97F74E1B1 /* FPLTeamViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE91AC0828CC18EF1570B2C /* FPLTeamViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93A645D987198756A9FAF53 /* Build configuration list for PBXNativeTarget "FPLTeamViewer" */;
+			buildPhases = (
+				030F94BE732D29E9C7F52509 /* Sources */,
+				B76CA3CA71C191730E136406 /* Frameworks */,
+				19BAA47A8BA3A5CAFED7F13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPLTeamViewer;
+			productName = FPLTeamViewer;
+			productReference = 64191CAAD9B5498951FB4044 /* FPLTeamViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C6DB1BE3987E94BC10B4D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = D81EF5D0B5CB145850114BF8 /* Build configuration list for PBXProject "FPLTeamViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1C8DFA75D34A3152F4EE1B6;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 360F999E39106A09BB76C4B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE91AC0828CC18EF1570B2C /* FPLTeamViewer */,
+				C5BC9165DEA0399F77A00657 /* FPLTeamViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19BAA47A8BA3A5CAFED7F13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F5027C18785FA7F9149002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030F94BE732D29E9C7F52509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF87FD5D1FD0C881E032B15 /* AppRouter.swift in Sources */,
+				D47510290D346D245FAC5DB7 /* AppDelegate.swift in Sources */,
+				C7E45A1730637BBF2F4D24BC /* FPLAPIClient.swift in Sources */,
+				27F78A7A0B3612B07DB2BE70 /* SnapshotCache.swift in Sources */,
+				C229A19DD05E2EB5CB952604 /* BootstrapDTO.swift in Sources */,
+				BD4443DC7D1650196051C63F /* LeagueMapper.swift in Sources */,
+				DD2C393C60AFFCE0C78BD488 /* DefaultLeagueRepository.swift in Sources */,
+				6AB34E5F5DB3C49A52BCB19C /* LeagueSnapshot.swift in Sources */,
+				877B5966B90E76F917FAD0A4 /* LeagueRepository.swift in Sources */,
+				7C7867A65AE1B54C3B5E732E /* SquadViewController.swift in Sources */,
+				B1ADED9EA05DD310C15DC386 /* SquadViewModel.swift in Sources */,
+				D1424F1EC7FD8BE30240027F /* TeamsViewController.swift in Sources */,
+				9386466B824182526472005E /* TeamsViewModel.swift in Sources */,
+				88629BFE0012DAE520DA4C8B /* DiffableTableView.swift in Sources */,
+				04B5EC35BDCFCFF481EE1E59 /* TeamColorPalette.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B593B74E90FE6902EE2E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E3B12C7D4F6A8B0C1D2E3F /* DefaultLeagueRepositoryTests.swift in Sources */,
+				2217D2B5072BFA42DABEFF2C /* DecodingAndMappingTests.swift in Sources */,
+				A9E3B12C7D4F6A8B0C1D2E3F /* FPLAPIClientTests.swift in Sources */,
+				8380B84B92E1FFF7A2A11993 /* FileSnapshotCacheTests.swift in Sources */,
+				1D01510DEB674FAA58B842DD /* Fixtures.swift in Sources */,
+				A18636DF8B5FAF812A29FA7A /* SquadViewModelTests.swift in Sources */,
+				59B0A1E149D7B90B0C3EB23A /* TeamColorPaletteTests.swift in Sources */,
+				E9E3B12C7D4F6A8B0C1D2E3F /* TableScreenTests.swift in Sources */,
+				26681DD99DBFE75FD8D99FA9 /* TeamsViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9235A851608E4E0A9FAFF6FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FPLTeamViewer;
+			target = EDE91AC0828CC18EF1570B2C /* FPLTeamViewer */;
+			targetProxy = 80E8004B63C04F16EF96C5EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F44D4C6D1B4F2C350725ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		30B4CB02A74516768887C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seeclear.FPLTeamViewer;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5DD7F7CE60E04AF23855C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seeclear.FPLTeamViewer;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF8F7526C0BBB20709D2785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CC1019B84CB51E113416280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seeclear.FPLTeamViewerTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPLTeamViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FPLTeamViewer";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E62038AD3EE9DA19B717E742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seeclear.FPLTeamViewerTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FPLTeamViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FPLTeamViewer";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16586F7D2CF70E6E8B90128B /* Build configuration list for PBXNativeTarget "FPLTeamViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1019B84CB51E113416280B /* Release */,
+				E62038AD3EE9DA19B717E742 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81EF5D0B5CB145850114BF8 /* Build configuration list for PBXProject "FPLTeamViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF8F7526C0BBB20709D2785 /* Debug */,
+				1F44D4C6D1B4F2C350725ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93A645D987198756A9FAF53 /* Build configuration list for PBXNativeTarget "FPLTeamViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B4CB02A74516768887C6D5 /* Release */,
+				A5DD7F7CE60E04AF23855C87 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C6DB1BE3987E94BC10B4D1 /* Project object */;
+}
